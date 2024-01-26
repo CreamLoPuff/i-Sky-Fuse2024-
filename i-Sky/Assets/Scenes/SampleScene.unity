@@ -449,6 +449,7 @@ GameObject:
   - component: {fileID: 485162918}
   - component: {fileID: 485162920}
   - component: {fileID: 485162921}
+  - component: {fileID: 485162922}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -501,6 +502,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 222020991}
+  - {fileID: 688187331}
+  - {fileID: 1051629177}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &485162915
@@ -653,6 +656,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_System: {fileID: 485162916}
   m_DelayTime: 0
+--- !u!114 &485162922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485162911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae8f4ddde59d45409858e346fd17014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTeleportationRay: {fileID: 929132743}
+  rightTeleportationRay: {fileID: 2073542657}
+  leftActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: b7d562fa-ee3a-454a-8d3f-6450a7b70e09
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  rightActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: bb7d2598-2aab-4bfb-a00b-f64218bc1b79
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  activateDeadZone: 0.05
 --- !u!1 &492445696
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,7 +1035,7 @@ Transform:
   m_LocalScale: {x: 0.33361775, y: 0.031082155, z: 0.33361775}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 485162914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -1858,7 +1900,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_SelectActionValue:
     m_UseReference: 1
     m_Action:
@@ -2085,7 +2127,7 @@ Transform:
   m_LocalScale: {x: 0.33361775, y: 0.031082155, z: 0.33361775}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 485162914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1420038568 stripped
 GameObject:
@@ -2919,7 +2961,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_SelectActionValue:
     m_UseReference: 1
     m_Action:
@@ -3513,5 +3555,3 @@ SceneRoots:
   - {fileID: 88350138}
   - {fileID: 485162914}
   - {fileID: 2108590772}
-  - {fileID: 688187331}
-  - {fileID: 1051629177}
