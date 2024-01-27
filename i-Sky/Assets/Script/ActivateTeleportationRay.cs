@@ -19,7 +19,7 @@ public class ActivateTeleportationRay : MonoBehaviour
     {
 
         leftTeleportationRay.SetActive(leftActivate.action.ReadValue<float>() > activateDeadZone);
-        rightTeleportationRay.SetActive(rightActivate.action.ReadValue<float>() >activateDeadZone);
+        rightTeleportationRay.SetActive(rightActivate.action.ReadValue<float>() > activateDeadZone);
 
     }
 }
