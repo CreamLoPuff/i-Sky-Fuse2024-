@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class TakeScreenshot : MonoBehaviour
@@ -12,16 +13,25 @@ public class TakeScreenshot : MonoBehaviour
     //public RenderTexture snapRenderTexture;
     public RawImage snapDisplay;
 
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] InputActionProperty TakePhoto;
+
+    private bool isHoldingCamera = false;
+
+    public void HoldingCamera()
     {
-        
+        isHoldingCamera = true;
+    }
+
+    public void NotHoldingCamera()
+    {
+        isHoldingCamera = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) 
+        if(Input.GetKeyDown(KeyCode.Space) || TakePhoto.action.WasPressedThisFrame() && isHoldingCamera) 
         {
             var currentRT = RenderTexture.active;
             RenderTexture.active = snappingCamera.targetTexture;
