@@ -155,7 +155,7 @@ MonoBehaviour:
   platformTransform: {fileID: 1462723742}
   platformMoveSpeed: 1
   platformRotateSpeed: 20
-  gizmoMesh: {fileID: 2534964839176971238, guid: accb6d90f0d50fe4ca0f68159b4323de, type: 3}
+  gizmoMesh: {fileID: -6627925127384843159, guid: e67b29967d506a0408e193df7656c30c, type: 3}
   gizmoScale: 0.71
 --- !u!4 &293489534
 Transform:
