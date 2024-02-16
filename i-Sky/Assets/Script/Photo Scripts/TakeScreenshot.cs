@@ -21,11 +21,12 @@ public class TakeScreenshot : MonoBehaviour
     [SerializeField] InputActionProperty TakePhoto;
 
 
-
+    private Transform photoParent;
     private bool isHoldingCamera = false;
 
     private void Start()
     {
+        photoParent = snappingCamera.transform.parent.Find("Photo Parent");
         photosRemainingText.text = (maxPics - images.Count).ToString();
     }
 
@@ -57,7 +58,15 @@ public class TakeScreenshot : MonoBehaviour
 
     void TakeAndSpawnPhoto()
     {
-        GameObject spawnedPhoto = Instantiate(photoPrefab, Vector3.right * images.Count, Quaternion.identity);
+        if(photoParent.childCount > 0)
+        {
+            Transform photoChild = photoParent.GetChild(0);
+
+            photoChild.parent = null;
+            photoChild.GetComponent<Rigidbody>().isKinematic = false;
+        }
+
+        GameObject spawnedPhoto = Instantiate(photoPrefab, photoParent);
         RawImage spawnedPhotoDisplay = spawnedPhoto.transform.GetChild(1).GetChild(0).GetComponent<RawImage>();
 
         var currentRT = RenderTexture.active;

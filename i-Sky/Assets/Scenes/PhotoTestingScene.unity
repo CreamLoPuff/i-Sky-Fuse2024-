@@ -1624,6 +1624,8 @@ MonoBehaviour:
   snappingCamera: {fileID: 373789708}
   photoPrefab: {fileID: 514607774013294613, guid: 9525e3e00bc4e0245836083d482366dd, type: 3}
   photosRemainingText: {fileID: 963499785}
+  maxPics: 6
+  images: []
   TakePhoto:
     m_UseReference: 0
     m_Action:
@@ -1636,8 +1638,6 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  images: []
-  maxPics: 6
 --- !u!4 &1959680692
 Transform:
   m_ObjectHideFlags: 0
