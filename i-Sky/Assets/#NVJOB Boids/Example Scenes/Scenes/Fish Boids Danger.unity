@@ -171,9 +171,9 @@ MonoBehaviour:
   rotationClampValue: 50
   scaleRandom: {x: 1.8, y: 2.2}
   danger: 1
-  dangerRadius: 25
-  dangerSpeed: 2
-  dangerSoaring: 0.7
+  dangerRadius: 34.6
+  dangerSpeed: 13.49
+  dangerSoaring: 23.45
   dangerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1078,9 +1078,9 @@ MonoBehaviour:
   rotationClampValue: 50
   scaleRandom: {x: 1.8, y: 2.2}
   danger: 1
-  dangerRadius: 25
-  dangerSpeed: 2
-  dangerSoaring: 0.7
+  dangerRadius: 34.6
+  dangerSpeed: 13.49
+  dangerSoaring: 23.45
   dangerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1139,7 +1139,7 @@ MonoBehaviour:
   migrationFrequency: 0.07
   posChangeFrequency: 0.7
   smoothChFrequency: 8
-  birdPref: {fileID: 3866908435750393346, guid: e77b7e344112b5f4c8d708dc75ad5c16, type: 3}
+  birdPref: {fileID: 3749213457490053405, guid: 164abfb7de0eb2440a88935c1d0c9d70, type: 3}
   birdsNum: 350
   birdSpeed: 1
   fragmentedBirds: 20
@@ -1150,9 +1150,9 @@ MonoBehaviour:
   rotationClampValue: 50
   scaleRandom: {x: 1.8, y: 2.2}
   danger: 1
-  dangerRadius: 25
-  dangerSpeed: 2
-  dangerSoaring: 0.7
+  dangerRadius: 34.6
+  dangerSpeed: 13.49
+  dangerSoaring: 23.45
   dangerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1243,6 +1243,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1084945165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.7825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.7825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 58.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3199995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768264934868420099, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889506860943681215, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_Name
+      value: InteractableCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 3779454301472861589, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 469b0f89d501d4b4c9086acf22925c11, type: 3}
 --- !u!1 &1252685195
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1425,7 @@ MonoBehaviour:
   migrationFrequency: 0.07
   posChangeFrequency: 0.7
   smoothChFrequency: 8
-  birdPref: {fileID: 3866908435750393346, guid: e77b7e344112b5f4c8d708dc75ad5c16, type: 3}
+  birdPref: {fileID: 3749213457490053405, guid: 164abfb7de0eb2440a88935c1d0c9d70, type: 3}
   birdsNum: 350
   birdSpeed: 1
   fragmentedBirds: 20
@@ -1359,9 +1436,9 @@ MonoBehaviour:
   rotationClampValue: 50
   scaleRandom: {x: 1.8, y: 2.2}
   danger: 1
-  dangerRadius: 25
-  dangerSpeed: 2
-  dangerSoaring: 0.7
+  dangerRadius: 34.6
+  dangerSpeed: 13.49
+  dangerSoaring: 23.45
   dangerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1589,7 +1666,7 @@ MonoBehaviour:
   migrationFrequency: 0.07
   posChangeFrequency: 0.7
   smoothChFrequency: 8
-  birdPref: {fileID: 1534700291726900181, guid: 4245ff9a4dd9cd24d8b511911616bf71, type: 3}
+  birdPref: {fileID: 3749213457490053405, guid: 164abfb7de0eb2440a88935c1d0c9d70, type: 3}
   birdsNum: 350
   birdSpeed: 1
   fragmentedBirds: 20
@@ -1600,9 +1677,9 @@ MonoBehaviour:
   rotationClampValue: 50
   scaleRandom: {x: 1.8, y: 2.2}
   danger: 1
-  dangerRadius: 25
-  dangerSpeed: 2
-  dangerSoaring: 0.7
+  dangerRadius: 34.6
+  dangerSpeed: 13.49
+  dangerSoaring: 23.45
   dangerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1692,7 +1769,7 @@ MonoBehaviour:
   migrationFrequency: 0.07
   posChangeFrequency: 0.7
   smoothChFrequency: 8
-  birdPref: {fileID: 1534700291726900181, guid: 4245ff9a4dd9cd24d8b511911616bf71, type: 3}
+  birdPref: {fileID: 3749213457490053405, guid: 164abfb7de0eb2440a88935c1d0c9d70, type: 3}
   birdsNum: 350
   birdSpeed: 1
   fragmentedBirds: 20
@@ -1703,9 +1780,9 @@ MonoBehaviour:
   rotationClampValue: 50
   scaleRandom: {x: 1.8, y: 2.2}
   danger: 1
-  dangerRadius: 25
-  dangerSpeed: 2
-  dangerSoaring: 0.7
+  dangerRadius: 34.6
+  dangerSpeed: 13.49
+  dangerSoaring: 23.45
   dangerLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1999,5 +2076,6 @@ SceneRoots:
   - {fileID: 848002146}
   - {fileID: 1946096834}
   - {fileID: 916808304}
-  - {fileID: 169023003}
   - {fileID: 1722995166}
+  - {fileID: 169023003}
+  - {fileID: 1084945165}
