@@ -18,7 +18,7 @@ public class AutoParent : MonoBehaviour
     {
         if(transform.parent == null)
         {
-            transform.parent = parent;
+            transform.SetParent(parent, true);
         }
     }
 }
