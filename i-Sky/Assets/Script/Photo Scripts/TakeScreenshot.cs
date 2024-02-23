@@ -43,7 +43,7 @@ public class TakeScreenshot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if((Input.GetKeyDown(KeyCode.Space) || TakePhoto.action.WasPressedThisFrame() && isHoldingCamera) && images.Count < maxPics)
+        if((Input.GetKeyDown(KeyCode.Space) || TakePhoto.action.WasPressedThisFrame()) && images.Count < maxPics)
         {
             TakeAndSpawnPhoto();
 
