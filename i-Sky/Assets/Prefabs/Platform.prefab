@@ -1928,9 +1928,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f21486b0c0b9742b8154a598460f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayCamera: {fileID: 6144976872825570299}
   snappingCamera: {fileID: 3773270047700924517}
-  snapDisplay: {fileID: 6633182342295362654}
+  photoPrefab: {fileID: 0}
+  photosRemainingText: {fileID: 0}
+  maxPics: 6
+  images: []
   TakePhoto:
     m_UseReference: 1
     m_Action:
@@ -2385,8 +2387,8 @@ Transform:
   m_GameObject: {fileID: 4511413460473495329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.2407249, z: -0, w: 0.9705934}
-  m_LocalPosition: {x: -1.384, y: 1.866, z: 1.3410001}
-  m_LocalScale: {x: 1.3543844, y: 1.0897248, z: 1.1526481}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3632416, y: 0.3632416, z: 0.36324152}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6657154828153425092}
@@ -2394,7 +2396,7 @@ Transform:
   - {fileID: 4469554382165331367}
   - {fileID: 1584316551142906824}
   - {fileID: 3942708286210910050}
-  m_Father: {fileID: 7290747483201811380}
+  m_Father: {fileID: 306856802815312388}
   m_LocalEulerAnglesHint: {x: 0, y: -27.859, z: 0}
 --- !u!114 &5491037603416683019
 MonoBehaviour:
@@ -2836,7 +2838,6 @@ Transform:
   - {fileID: 1337093482417385552}
   - {fileID: 8506197828200627154}
   - {fileID: 1438290248105974280}
-  - {fileID: 2021935159768142969}
   - {fileID: 8596742644692698719}
   - {fileID: 4292261811248578884}
   - {fileID: 649461100109573759}
@@ -3235,6 +3236,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7926283718313685253}
+  - {fileID: 2021935159768142969}
   m_Father: {fileID: 6234087972646036359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3452609506447920980
