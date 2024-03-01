@@ -6,11 +6,12 @@ public class AutoParent : MonoBehaviour
 {
     [SerializeField] string parentName;
 
-    private Transform parent;
+    [SerializeField]private Transform parent;
+    
 
     private void Start()
     {
-        parent = GameObject.Find(parentName).transform;
+        //parent = GameObject.Find(parentName).transform;
     }
 
     // Update is called once per frame
@@ -18,7 +19,7 @@ public class AutoParent : MonoBehaviour
     {
         if(transform.parent == null)
         {
-            transform.SetParent(parent, true);
+            transform.SetParent(parent, false);
         }
     }
 }
