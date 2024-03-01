@@ -128,7 +128,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.8044226, y: 1, z: 0.034091316}
+  m_Size: {x: 1, y: 1, z: 0.034091316}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &7073265518141344292
 Rigidbody:
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
-  m_TrackScale: 1
+  m_TrackScale: 0
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
