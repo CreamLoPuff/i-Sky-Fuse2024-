@@ -22629,6 +22629,10 @@ PrefabInstance:
       propertyPath: m_ThrowOnDetach
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1631871523928899715, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
+      propertyPath: maxPics
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1940568288596875235, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -22734,7 +22738,9 @@ PrefabInstance:
       value: 0.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6306566336720163277, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
+    - {fileID: 6702844927342922734, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
