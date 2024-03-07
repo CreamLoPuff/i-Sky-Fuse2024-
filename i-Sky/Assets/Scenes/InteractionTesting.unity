@@ -23974,12 +23974,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1807427152121269128, guid: aed6c966feaa5864ea94da02d84a16da, type: 3}
       propertyPath: platformMoveSpeed
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1807427152121269128, guid: aed6c966feaa5864ea94da02d84a16da, type: 3}
       propertyPath: platformTransform
       value: 
       objectReference: {fileID: 1706752959}
+    - target: {fileID: 1807427152121269128, guid: aed6c966feaa5864ea94da02d84a16da, type: 3}
+      propertyPath: platformRotateSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2241819772601141908, guid: aed6c966feaa5864ea94da02d84a16da, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.8370019
