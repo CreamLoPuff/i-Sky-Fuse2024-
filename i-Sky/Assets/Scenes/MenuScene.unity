@@ -391,14 +391,14 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 493286203}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
+  m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1162,6 +1162,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7758786408826711993, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+      propertyPath: m_PositionInput.m_Action.m_Id
+      value: e53c7e48-7ffc-490f-8536-8dc707d5e644
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758786408826711993, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+      propertyPath: m_RotationInput.m_Action.m_Id
+      value: ec82f3e6-3cc5-4cb4-89cb-5351e79b7f3a
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758786408826711993, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_Id
+      value: 9fb2e0b2-147a-4ac1-8519-88eba46a1e26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758786408826711993, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+      propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 8146b5cc-4512-4577-9c0d-0fb5f4a557b3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758786408826711993, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+      propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 16118ef0-e636-4b26-a148-083053115f5f
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758786408826711993, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: cb64f03a-3ce5-4c75-b5a2-d3a188614a1e
+      objectReference: {fileID: 0}
     - target: {fileID: 8656546597580814263, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1465,6 +1489,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1480008891}
   m_SourcePrefab: {fileID: 100100000, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+--- !u!20 &493286203 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7511030491563652739, guid: 64303dafe69a7a34cb8f5b894bc947fd, type: 3}
+  m_PrefabInstance: {fileID: 493286202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &510815645
 GameObject:
   m_ObjectHideFlags: 0
