@@ -20,14 +20,4 @@ public class MenuBehavior : MonoBehaviour
     {
         Application.Quit();
     }
-
-    //public void Settings()
-    //{
-
-    //}
-
-    //public void Controls()
-    //{
-
-    //}
 }
