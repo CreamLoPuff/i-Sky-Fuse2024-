@@ -63,7 +63,7 @@ public class TakeScreenshot : MonoBehaviour
             Transform photoChild = photoParent.GetChild(0);
 
             photoChild.parent = null;
-            photoChild.GetComponent<Rigidbody>().isKinematic = false;
+            //photoChild.GetComponent<Rigidbody>().isKinematic = false;
         }
 
         GameObject spawnedPhoto = Instantiate(photoPrefab, photoParent);
@@ -104,5 +104,10 @@ public class TakeScreenshot : MonoBehaviour
         }
 
         print("Photos Saved");
+    }
+
+    public void PrintPhoto()
+    {
+        print("Photo Printed");
     }
 }
