@@ -6,7 +6,8 @@ public class AutoParent : MonoBehaviour
 {
     [SerializeField] string parentName;
 
-    private Transform parent;
+    [SerializeField]private Transform parent;
+    
 
     private void Start()
     {
@@ -20,5 +21,7 @@ public class AutoParent : MonoBehaviour
         {
             transform.SetParent(parent, true);
         }
+
+        transform.localScale = new Vector3(.55f, .55f, .55f);
     }
 }
