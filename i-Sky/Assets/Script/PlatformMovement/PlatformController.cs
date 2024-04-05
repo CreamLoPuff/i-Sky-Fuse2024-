@@ -6,6 +6,7 @@ public class PlatformController : MonoBehaviour
 {
     [Header("Refrences:")]
     [SerializeField] Transform platformTransform;
+    [SerializeField] GameObject endCanvas;
     
     [Header("Platform Variables:")]
     [SerializeField] float platformMoveSpeed;
@@ -17,6 +18,8 @@ public class PlatformController : MonoBehaviour
     [SerializeField] float gizmoScale;
     
     private Queue<Transform> movementNodes = new Queue<Transform>();
+
+    private bool endCanvasSpawned = false;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +44,10 @@ public class PlatformController : MonoBehaviour
             {
                 movementNodes.Dequeue();
             }
+        }
+        else if(!endCanvasSpawned) 
+        {
+            endCanvas.SetActive(true);
         }
     }
 
