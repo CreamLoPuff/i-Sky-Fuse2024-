@@ -24,6 +24,7 @@ public class TakeScreenshot : MonoBehaviour
     private Transform photoParent;
     private bool isHoldingCamera = false;
 
+    [SerializeField] GameObject platform;
     private void Start()
     {
         photoParent = snappingCamera.transform.parent.Find("Photo Parent");
@@ -63,8 +64,9 @@ public class TakeScreenshot : MonoBehaviour
 
     void TakeAndSpawnPhoto()
     {
-        if(photoParent.childCount > 0)
+        if (photoParent.childCount > 0)
         {
+            print("running");
             Transform photoChild = photoParent.GetChild(0);
 
             photoChild.parent = null;
@@ -87,6 +89,8 @@ public class TakeScreenshot : MonoBehaviour
 
         RenderTexture.active = currentRT;
         spawnedPhotoDisplay.texture = image;
+
+        
 
         print("Photo Taken");
     }

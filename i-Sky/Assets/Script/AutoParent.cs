@@ -11,7 +11,7 @@ public class AutoParent : MonoBehaviour
 
     private void Start()
     {
-        //parent = GameObject.Find(parentName).transform;
+        parent = GameObject.Find(parentName).transform;
     }
 
     // Update is called once per frame
@@ -21,5 +21,7 @@ public class AutoParent : MonoBehaviour
         {
             transform.SetParent(parent, false);
         }
+
+        transform.localScale = new Vector3(.55f, .55f, .55f);
     }
 }
