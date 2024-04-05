@@ -19,7 +19,7 @@ public class AutoParent : MonoBehaviour
     {
         if(transform.parent == null)
         {
-            transform.SetParent(parent, false);
+            transform.SetParent(parent, true);
         }
 
         transform.localScale = new Vector3(.55f, .55f, .55f);
