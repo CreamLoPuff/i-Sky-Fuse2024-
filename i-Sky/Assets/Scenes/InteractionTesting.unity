@@ -3601,24 +3601,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa35b9623162614881082335023629b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 8}
+  behavioralCh: {x: 4, y: 8}
   debug: 0
-  flockNum: 5
-  fragmentedFlock: 1443
-  fragmentedFlockYLimit: 0.381
-  migrationFrequency: 0.252
-  posChangeFrequency: 0.244
-  smoothChFrequency: 20.9
+  flockNum: 6
+  fragmentedFlock: 91
+  fragmentedFlockYLimit: 0.057
+  migrationFrequency: 1
+  posChangeFrequency: 1
+  smoothChFrequency: 26.3
   birdPref: {fileID: 919132149155446097, guid: 019e4c6f7598adc44bad864c977c3780, type: 3}
-  birdsNum: 33
-  birdSpeed: 12.1
-  fragmentedBirds: 26
-  fragmentedBirdsYLimit: 0.4
-  soaring: 6.66
-  verticalWawe: 143
+  birdsNum: 25
+  birdSpeed: 18.5
+  fragmentedBirds: 3
+  fragmentedBirdsYLimit: 0.113
+  soaring: 4.88
+  verticalWawe: 8
   rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 3, y: 7}
+  rotationClampValue: 77
+  scaleRandom: {x: 4, y: 7}
   danger: 0
   dangerRadius: 24.8
   dangerSpeed: 3.89
@@ -3638,7 +3638,7 @@ Transform:
   m_GameObject: {fileID: 247103137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 150.16043, y: 0, z: 59.863388}
+  m_LocalPosition: {x: -100, y: 21, z: 115}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10288,28 +10288,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa35b9623162614881082335023629b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
+  behavioralCh: {x: 4, y: 8}
   debug: 0
-  flockNum: 5
-  fragmentedFlock: 1443
-  fragmentedFlockYLimit: 0.381
-  migrationFrequency: 0.252
-  posChangeFrequency: 0.244
-  smoothChFrequency: 20.9
+  flockNum: 6
+  fragmentedFlock: 91
+  fragmentedFlockYLimit: 0.057
+  migrationFrequency: 1
+  posChangeFrequency: 1
+  smoothChFrequency: 26.3
   birdPref: {fileID: 919132149155446097, guid: 232857f4789906d4a82a92b46ae16994, type: 3}
-  birdsNum: 33
-  birdSpeed: 12.1
-  fragmentedBirds: 26
-  fragmentedBirdsYLimit: 0.4
-  soaring: 6.66
-  verticalWawe: 143
+  birdsNum: 25
+  birdSpeed: 18.5
+  fragmentedBirds: 3
+  fragmentedBirdsYLimit: 0.113
+  soaring: 4.88
+  verticalWawe: 8
   rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 3, y: 7}
+  rotationClampValue: 77
+  scaleRandom: {x: 4, y: 7}
   danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
+  dangerRadius: 24.8
+  dangerSpeed: 3.89
+  dangerSoaring: 2.21
   dangerLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -10325,7 +10325,7 @@ Transform:
   m_GameObject: {fileID: 782972073}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 150.16043, y: 0, z: 59.863388}
+  m_LocalPosition: {x: -100, y: 21, z: 115}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11376,7 +11376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 855988312}
-  - component: {fileID: 855988311}
+  - component: {fileID: 855988313}
   m_Layer: 0
   m_Name: Whales Yellow
   m_TagString: Untagged
@@ -11384,7 +11384,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &855988311
+--- !u!4 &855988312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855988310}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -100, y: 21, z: 115}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &855988313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11396,49 +11411,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa35b9623162614881082335023629b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 8}
+  behavioralCh: {x: 4, y: 8}
   debug: 0
-  flockNum: 5
-  fragmentedFlock: 1443
-  fragmentedFlockYLimit: 0.381
-  migrationFrequency: 0.252
-  posChangeFrequency: 0.244
-  smoothChFrequency: 20.9
+  flockNum: 6
+  fragmentedFlock: 91
+  fragmentedFlockYLimit: 0.057
+  migrationFrequency: 1
+  posChangeFrequency: 1
+  smoothChFrequency: 26.3
   birdPref: {fileID: 919132149155446097, guid: 264772900c904a5468eed96c4d9483f4, type: 3}
-  birdsNum: 33
-  birdSpeed: 12.1
-  fragmentedBirds: 26
-  fragmentedBirdsYLimit: 0.4
-  soaring: 6.66
-  verticalWawe: 143
+  birdsNum: 25
+  birdSpeed: 18.5
+  fragmentedBirds: 3
+  fragmentedBirdsYLimit: 0.113
+  soaring: 4.88
+  verticalWawe: 8
   rotationClamp: 0
   rotationClampValue: 50
-  scaleRandom: {x: 3, y: 7}
+  scaleRandom: {x: 5, y: 8}
   danger: 0
-  dangerRadius: 24.8
-  dangerSpeed: 3.89
-  dangerSoaring: 2.21
+  dangerRadius: 15
+  dangerSpeed: 1.5
+  dangerSoaring: 0.5
   dangerLayer:
     serializedVersion: 2
     m_Bits: 0
   HelpURL: nvjob.github.io/unity/nvjob-boids
   ReportAProblem: nvjob.github.io/support
   Patrons: nvjob.github.io/patrons
---- !u!4 &855988312
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 855988310}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 150.16043, y: 0, z: 59.863388}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &862990545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23942,7 +23942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6149054338465915442, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7290747483201811380, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24133,12 +24133,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9197570483643610265, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
+      propertyPath: m_LineType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197570483643610265, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
       propertyPath: m_EndPointHeight
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9197570483643610265, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
       propertyPath: m_EndPointDistance
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197570483643610265, guid: 59b5507d14a7b3e4eb414f4f4af56b7a, type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
