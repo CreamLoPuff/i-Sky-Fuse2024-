@@ -3611,7 +3611,7 @@ MonoBehaviour:
   smoothChFrequency: 26.3
   birdPref: {fileID: 919132149155446097, guid: 019e4c6f7598adc44bad864c977c3780, type: 3}
   birdsNum: 25
-  birdSpeed: 18.5
+  birdSpeed: 10
   fragmentedBirds: 3
   fragmentedBirdsYLimit: 0.113
   soaring: 4.88
@@ -10298,7 +10298,7 @@ MonoBehaviour:
   smoothChFrequency: 26.3
   birdPref: {fileID: 919132149155446097, guid: 232857f4789906d4a82a92b46ae16994, type: 3}
   birdsNum: 25
-  birdSpeed: 18.5
+  birdSpeed: 10
   fragmentedBirds: 3
   fragmentedBirdsYLimit: 0.113
   soaring: 4.88
@@ -11421,7 +11421,7 @@ MonoBehaviour:
   smoothChFrequency: 26.3
   birdPref: {fileID: 919132149155446097, guid: 264772900c904a5468eed96c4d9483f4, type: 3}
   birdsNum: 25
-  birdSpeed: 18.5
+  birdSpeed: 10
   fragmentedBirds: 3
   fragmentedBirdsYLimit: 0.113
   soaring: 4.88
@@ -12232,7 +12232,7 @@ MonoBehaviour:
   posChangeFrequency: 0.488
   smoothChFrequency: 33.8
   birdPref: {fileID: 1534700291726900181, guid: 4245ff9a4dd9cd24d8b511911616bf71, type: 3}
-  birdsNum: 205
+  birdsNum: 325
   birdSpeed: 12.1
   fragmentedBirds: 26
   fragmentedBirdsYLimit: 0.323
