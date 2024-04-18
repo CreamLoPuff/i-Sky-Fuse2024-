@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EndMenuBehaviour : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class EndMenuBehaviour : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.P)) PopulateImages();
-        if (Input.GetKeyDown(KeyCode.R)) GoToMainMenu();
+        if (Input.GetKeyDown(KeyCode.R)) Return();
     }
 
     void PopulateImages()
@@ -29,8 +30,8 @@ public class EndMenuBehaviour : MonoBehaviour
         }
     }
 
-    void GoToMainMenu()
+    public void Return()
     {
-        FindObjectOfType<MenuBehavior>().QuitGame();
+        SceneManager.LoadScene(0);
     }
 }
